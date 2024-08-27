@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main>
-        <h1>Home Page</h1>
+      <main className="min-h-screen">
+        <h1 className="flex justify-center align-center m-20">Home Page</h1>
       </main>
     </>
   );
